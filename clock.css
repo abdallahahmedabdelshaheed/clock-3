@@ -247,7 +247,7 @@ body{
 }
 
 
-@media only screen and (max-width:499px){
+@media only screen and (max-width:699px){
     #clock{
         width: 700px;
         height: 700px;
