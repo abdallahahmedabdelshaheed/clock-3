@@ -8,7 +8,9 @@ body{
 }
 
 #clock{
-    width: 400px; aspect-ratio: 1/1;
+    width: 400px;
+    height:400px;
+    aspect-ratio: 1/1;
     background-color: #222;
     border-radius: 50%;
     border: 2px solid rgba(69, 69, 161, 0.267);
