@@ -9,7 +9,7 @@ body{
 
 #clock{
     width: 400px;
-    height:400px;
+    height: 400px;
     aspect-ratio: 1/1;
     background-color: #222;
     border-radius: 50%;
@@ -247,7 +247,31 @@ body{
 }
 
 
+@media only screen and (max-width:499px){
+    #clock{
+        width: 600px;
+        height: 600px;
+    }
 
+    #work #seconds{
+        border-top: 225px solid white;
+        border-bottom: 225px solid transparent;
+    }
+
+    #work #minutes{
+        border-top: 195px solid white;
+        border-bottom: 195px solid transparent;
+    }
+
+    #work #minutes{
+        border-top: 150px solid white;
+        border-bottom: 150px solid transparent;
+    }
+
+    #clock #controls span{
+        font-size: 32px;
+    }
+}
 
 
 
